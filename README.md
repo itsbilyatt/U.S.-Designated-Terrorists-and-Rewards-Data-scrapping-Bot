@@ -1,2 +1,2 @@
 # U.S.-Designated-Terrorists-and-Rewards-Data-scrapping-Bot
-U.S. Designated Terrorists and Rewards - Data Scrapping Bot
+## Data is Saved in JSON and excel format after scrapping.
