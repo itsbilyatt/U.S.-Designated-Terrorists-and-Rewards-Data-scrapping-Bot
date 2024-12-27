@@ -1,117 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Scraping Expert Portfolio</title>
+    <title>Prajyot Birajdar | Data Scientist & AI Specialist</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Roboto', sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f4f4f9;
             color: #333;
         }
+
         header {
             background-color: #4CAF50;
             color: white;
-            padding: 20px 10px;
+            padding: 1rem 2rem;
             text-align: center;
         }
+
+        header h1 {
+            margin: 0;
+        }
+
         nav {
             display: flex;
             justify-content: center;
-            background: #333;
-            padding: 10px;
+            gap: 1rem;
+            margin: 1rem 0;
         }
+
         nav a {
-            color: white;
-            margin: 0 15px;
             text-decoration: none;
-            font-size: 18px;
+            color: #4CAF50;
+            font-weight: bold;
         }
-        nav a:hover {
-            text-decoration: underline;
-        }
+
         section {
-            padding: 20px;
-            max-width: 800px;
-            margin: auto;
-            text-align: center;
-        }
-        .projects {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-            margin-top: 20px;
-        }
-        .project {
+            padding: 2rem;
+            margin: 1rem auto;
             background: white;
-            padding: 15px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            max-width: 900px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
+
+        .project {
+            margin-bottom: 1.5rem;
+        }
+
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .contact-form input, .contact-form textarea {
+            padding: 0.5rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            width: 100%;
+        }
+
+        .contact-form button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 0.75rem;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
         footer {
             text-align: center;
-            padding: 10px 0;
+            padding: 1rem;
             background-color: #333;
             color: white;
-            margin-top: 20px;
+            margin-top: 2rem;
+        }
+
+        footer a {
+            color: #4CAF50;
+            text-decoration: none;
         }
     </style>
 </head>
+
 <body>
     <header>
-        <h1>Your Name</h1>
-        <p>Web Scraping Expert | Data Enthusiast</p>
+        <h1>Prajyot Birajdar</h1>
+        <p>Data Scientist | AI Specialist | Generative AI Enthusiast</p>
     </header>
-    
+
     <nav>
-        <a href="#about">About Me</a>
+        <a href="#about">About</a>
         <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#certifications">Certifications</a>
         <a href="#contact">Contact</a>
     </nav>
 
     <section id="about">
         <h2>About Me</h2>
-        <p>I specialize in extracting, transforming, and analyzing web data efficiently. With expertise in Python, Selenium, Beautiful Soup, and API integration, I help organizations make data-driven decisions.</p>
+        <p>Result-driven graduate with 2.8+ years of work experience in Data Science, Machine Learning, Deep Learning, Generative AI use cases, NLP, and LLM. Passionate about delivering AI-driven solutions to complex problems and seeking full-time roles in AI.</p>
     </section>
 
     <section id="projects">
         <h2>Projects</h2>
-        <div class="projects">
-            <div class="project">
-                <h3>Project 1</h3>
-                <p>A web scraping tool that collects real-time e-commerce data for price comparison.</p>
-                <a href="https://github.com/yourusername/project1" target="_blank">View on GitHub</a>
-            </div>
-            <div class="project">
-                <h3>Project 2</h3>
-                <p>Automated job listing scraper with advanced filtering and reporting capabilities.</p>
-                <a href="https://github.com/yourusername/project2" target="_blank">View on GitHub</a>
-            </div>
-            <div class="project">
-                <h3>Project 3</h3>
-                <p>Scraped legal websites to extract case data and stored it in various formats such as CSV, JSON, and relational databases for further analysis.</p>
-                <a href="https://github.com/yourusername/project3" target="_blank">View on GitHub</a>
-            </div>
-            <div class="project">
-                <h3>Project 4</h3>
-                <p>Developed a script to download thousands of PDFs from a government portal, extract text data, and store the information in a structured database format.</p>
-                <a href="https://github.com/yourusername/project4" target="_blank">View on GitHub</a>
-            </div>
-            <!-- Add more projects as needed -->
+        <div class="project">
+            <h3>User Story Generation using LLM</h3>
+            <p><strong>Client:</strong> Morgan Stanley</p>
+            <p><strong>Technologies:</strong> Python, Flask, MongoDB, Redis Vector DB, NLTK, OpenAI Models</p>
+            <p>Developed an AI-driven solution to automate the creation of Jira user stories and acceptance criteria from concise requirements. Features include unit test case and code snippet generation, integrated with Jira API for streamlined workflows.</p>
+        </div>
+        <div class="project">
+            <h3>Automated Usage Report Generation</h3>
+            <p><strong>Client:</strong> Morgan Stanley</p>
+            <p><strong>Technologies:</strong> Python, Pandas, Solr, Snowflake</p>
+            <p>Automated weekly usage report generation by extracting data from Snowflake and Solr, manipulating it with Pandas, and scheduling email delivery via Autosys.</p>
         </div>
     </section>
 
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li><strong>Programming Languages:</strong> Python</li>
+            <li><strong>Web Technologies:</strong> HTML, Streamlit, Flask</li>
+            <li><strong>Database Systems:</strong> MongoDB, MySQL, Redis Vector Database</li>
+            <li><strong>Data Science & Machine Learning:</strong> NumPy, Pandas, Scikit-learn, Seaborn, Matplotlib, NLTK</li>
+            <li><strong>Deep Learning:</strong> Neural Networks, PyTorch</li>
+            <li><strong>Generative AI:</strong> Hugging Face Transformers, OpenAI GPT, LangChain, Prompt Engineering</li>
+            <li><strong>DevOps & Version Control:</strong> Bitbucket</li>
+        </ul>
+    </section>
+
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <ul>
+            <li>IBM Data Science Specialization (Coursera)</li>
+            <li>AWS Certified Cloud Practitioner</li>
+            <li>AZ-900: Microsoft Azure Fundamentals</li>
+            <li>Infosys Certified Generative AI Developer</li>
+        </ul>
+    </section>
+
     <section id="contact">
-        <h2>Contact</h2>
-        <p>Feel free to reach out via <a href="mailto:your_email@example.com">email</a> or connect on <a href="https://www.linkedin.com/in/yourusername">LinkedIn</a>.</p>
+        <h2>Contact Me</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
     </section>
 
     <footer>
-        <p>&copy; 2024 Your Name. All Rights Reserved.</p>
+        <p>&copy; 2024 Prajyot Birajdar. Connect with me on <a href="https://linkedin.com">LinkedIn</a>, <a href="https://github.com">GitHub</a>, and <a href="https://kaggle.com">Kaggle</a>.</p>
     </footer>
 </body>
+
 </html>
